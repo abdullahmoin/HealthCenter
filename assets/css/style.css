@@ -1,0 +1,198 @@
+body{
+    margin: 0;
+    padding: 0;
+   
+}
+
+.upper-nav{
+    box-sizing: border-box;
+    border-bottom: .5px solid rgba(0, 0, 0, 0.096); 
+    padding: 8px;
+    
+}
+.upper-nav p{
+    margin-bottom: 0px;
+    border-right: .5px solid rgba(0, 0, 0, 0.157);
+    
+    
+
+}
+.upper-nav i{
+    color: #A7C321;
+}
+.upper-nav .bdnone{
+    border: none !important;
+}
+.main-nav .lgo{
+    color:#A7C321 ;
+    font-weight: 900;
+}
+.main-nav .navbar{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.main-nav .nav-item{
+    margin-right: px;
+}
+.main-nav .nav-item button{
+    background-color: #A7C321;
+    padding: 8px;
+    color: white;
+    transform: ;
+    
+}
+
+.main-nav .nav-item button:hover{
+    -webkit-transform: rotateZ(-4deg);
+    -ms-transform: rotateZ(-4deg);
+    transform: rotateZ(-4deg);
+    border: none;
+
+}
+.hero .promo{
+    text-align: center;
+    color: white !important;
+   
+}
+.hero .img-shadow{
+   
+  /* Add the blur effect */
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
+  /* Center and scale the image nicely */
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hero .carousel-caption{
+    transform: translateY(-50%);
+    bottom: initial;
+    top: 50%;
+}
+.hero h6{
+    font-stretch: expanded;
+
+}
+.hero h1{
+    font-weight: 700;
+    font-size: 70px;
+}
+.hero button{
+    color: white;
+    background-color: #4067B5 ;
+    padding: 10px;
+}
+.hero button:hover{
+    color:#A7C321;
+    background-color: transparent;
+    border: 2px solid white ;
+    width: 10%;
+}
+.carousel-dark .carousel-indicators [data-bs-target]{
+    background-color: white;
+}
+.welcome{
+background-color: #F5F5F5;
+padding: 60px 0 0 0;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-weight: 600;
+}
+.welcome .welcome-note span{
+    color: black;
+    font-weight: 800;
+}
+.welcome .doc{
+    display: flex;
+}
+.welcome .doc-name{
+    margin-left: 2%;
+}
+
+.img-wrap{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+    border-radius: 50%;
+    border: .5px solid rgba(0, 0, 0, 0.287);
+    
+}
+
+.img-wrap img{
+border: none !important;
+width: 100%;
+height: auto;
+
+
+}
+.welcome .welcome-note{
+ margin-top: 20%;
+}
+.welcome .doc-name p{
+ font-size: 13px;
+}
+.welcome .welcome-note p{
+opacity: .8;
+}
+.welcome .main-img{
+    width: 80%;
+    height: auto;
+    border: none !important;
+    overflow: hidden;
+}
+.doctors{
+    padding: 10px 0 60px 0;
+    margin-top: 5em;
+    
+}
+.doctors .card{
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+.appoint{
+    padding-top: 8em;
+}
+.appoint button{
+
+background-color: #A7C321 !important;
+border: none;
+color: white;
+}
+.appoint button:hover{
+    color: #A7C321;
+    background-color: transparent !important;
+    border: 2px solid rgba(71, 69, 69, 0.212);
+}
+.maps img{
+    width: 100%;
+}
+.contacts .log-ctrl{
+    width: 25px;
+    height: auto;
+}
+.contacts .ptag p{
+    margin: 0 !important;
+    margin-bottom: 10px;
+}
+.contacts i{
+    cursor: pointer !important; 
+}
+.contacts i:hover{
+    color: blueviolet;
+    font-size: 30px;
+}
+.footer{
+    margin-top: 5em;
+    
+    
+}
+.footer .navbar-nav .nav-item a{
+    text-decoration: none !important;
+    color: black;
+}
+.footer p{
+    margin: 0 !important;
+}
+.footer{
+    border-top: .2px solid rgba(0, 0, 0, 0.185);
+}
