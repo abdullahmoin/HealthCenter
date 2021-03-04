@@ -48,6 +48,10 @@ body{
     border: none;
 
 }
+.main-nav .navbar-nav li a{
+    float: right;
+    text-align: left;
+}
 .hero .promo{
     text-align: center;
     color: white !important;
